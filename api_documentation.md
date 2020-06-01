@@ -87,9 +87,10 @@
 +Body
     <!--emptyresponse-->
 
-###List All Videos[GET]
+### List All Videos [GET]
 
-+Request(application/json){
++ Request (application/json) 
+{
   "user_id": 5525,
   "per_page_item": 30,
   "order": "asc or desc",
@@ -97,7 +98,9 @@
   "status": 1
 }
 
-+Response200(application/json)//+Body{
++ Response 200 (application/json)
++ Body
+{
   "total_videos_count": 1234,
   "offset_id": 123,
   "videos": [
