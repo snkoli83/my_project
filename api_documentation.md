@@ -5,13 +5,13 @@
 
     {
         "phone_no": "9168272319",
-				"OR"
-		"email_id": "snkoli83@gmail.com"
+		"OR"
+	"email_id": "snkoli83@gmail.com"
     }
 
 + Response 200 (application/json)
 
-        + Bodyl
++ Bodyl
 
      {
         "id":5797
@@ -21,9 +21,9 @@
 + Request (application/json)
 
      {
-		 "otp":"557585",
-		 "user_id":5797,
-         "phone_no":"9168272319"
+	"otp":"557585",
+	"user_id":5797,
+        "phone_no":"9168272319"
      }
 
 + Response 200 (application/json)
@@ -33,7 +33,7 @@
       {
               "user_id":5797,
               "access_token":"4eTz2UURI3cG/zSdg86cKIXb89gv/MK1SxbOj6grDWZwntyTAe6OwSid1C0rW6zvv7LjWihMhey16n65di+NSw=="
-		  }
+      }
 		  
 
 ## Log out [/logout]
