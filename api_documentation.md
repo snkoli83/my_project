@@ -42,52 +42,20 @@
 
 + Request (application/json)
 
-		{
-			"user_id":5525
-		}
+  {
+    "user_id":5525
+  }
 
 + Response 200 (application/json)
 
 
-		+ Bodyl
+  + Bodyl
 
-			<!--empty response-->
+    <!--empty response-->
 
-### List All Videos [GET]
 
-//##Signup[
-  /user_signup
-]//###/usersignup[
-  POST
-]//+Request(application/json){
-  "phone_no": "9168272319",
-  "OR""email_id": "snkoli83@gmail.com"
-}+Response200(application/json)+Bodyl{
-  "id": 5797
-}//##SignIn[
-  /sign_in
-]//###/sign_in[
-  POST
-]//+Request(application/json){
-  "otp": "557585",
-  "user_id": 5797,
-  "phone_no": "9168272319"
-}//+Response200(application/json)//+Body{
-  "user_id": 5797,
-  "access_token": "4eTz2UURI3cG/zSdg86cKIXb89gv/MK1SxbOj6grDWZwntyTAe6OwSid1C0rW6zvv7LjWihMhey16n65di+NSw=="
-}//##Logout[
-  /logout
-]//###/logout[
-  POST
-]+Request(application/json){
-  "user_id": 5525
-}
-
-+Response200(application/json)
-+Body
-    <!--emptyresponse-->
-
-### List All Videos [GET]
+## List All Videos [/videos]
+### /videos [GET]
 
 + Request (application/json) 
 {
